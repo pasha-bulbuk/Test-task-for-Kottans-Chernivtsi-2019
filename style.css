@@ -1,0 +1,68 @@
+body {
+	
+	background: #232526;
+	background: -webkit-linear-gradient(to right, #414345, #232526); 
+	background: linear-gradient(to right, #414345, #232526); 
+
+
+  	font: 300 1em 'Fira Sans', sans-serif;
+
+  	justify-content: center;
+	align-content: center;
+	align-items: center;
+	text-align: center;
+	min-height: 100vh;
+	display: flex;
+}
+
+.myBtn {
+	background: none;
+	border: 2px solid #D5D5D5;
+	font: inherit;
+	line-height: 1;
+	margin: 0.5em;
+	padding: 1em 2em;
+	color: #D5D5D5;
+	border-radius: 10px;
+}
+
+.myBtn:hover,
+.myBtn:focus {
+  box-shadow: inset 0 0 0 2em #D5D5D5;
+  color: #3E3E3E;
+}
+
+.modal {
+	display: none;
+	position: fixed;
+	z-index: 1;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+	background-color: rgba(0, 0, 0, 0.8);
+}
+
+.modal-content {
+	background-color: #fefefe;
+	margin: 3% auto;
+	padding: 10px;
+	border: 1px solid #888;
+	width: 80%;
+}
+
+.close {
+	float: right;
+	padding-bottom: 20px;
+	color: #aaa;
+	cursor: pointer;
+	font-weight: 700;
+	font-size: 28px;
+}
+
+.close:hover,
+.myBtn:focus {
+	color: #000;
+}
+
